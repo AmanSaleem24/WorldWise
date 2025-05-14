@@ -1,0 +1,33 @@
+.login{
+    background-color: var(--color-dark--0);
+    min-height: calc(100vh - 5rem);
+    margin: 2.5rem;
+    padding: 2.5rem 2.5rem;
+}
+
+.form{  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--color-dark--2);
+    gap: 2rem;
+    padding: 2rem 3rem;
+    border-radius: 7px;
+    width: 48rem; 
+    margin: 8rem auto; 
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+
+.ctaLink{
+  background-color: var(--color-brand--2);
+  color: var(--color-light--0);
+  padding: 0.8rem 2rem;
+  border-radius: 9px;
+  font-size: large;
+}
