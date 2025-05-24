@@ -22,9 +22,11 @@
 
 .flag {
   position: absolute;
+  color: red;
   right: 1rem;
   top: 2.7rem;
   font-size: 2.8rem;
+  font-family: Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji;
 }
 
 .form.loading {
