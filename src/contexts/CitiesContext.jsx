@@ -26,6 +26,7 @@ function CitiesProvider({ children }) {
   }, []);
 
   async function getCity(id) {
+    if(Number(id) === currentCity.id) return
     try {
       const res = await fetch(`${BASE_URL}/cities/${id}`);
       const data = await res.json();
@@ -52,7 +53,20 @@ function CitiesProvider({ children }) {
 
       setCities((cities) => [...cities, newCity])
     } catch {
-      console.error("Error fetching cities");
+      console.error("Error creating a city");
+    } finally {
+      setIsLoading(false);
+    }
+  }
+  async function deleteCity(id) {
+    try {
+      await fetch(`${BASE_URL}/cities/${id}`, {
+        method: "DELETE",
+      });
+
+      setCities((cities) => cities.filter(city => city.id !== id))
+    } catch {
+      console.error("Error deleting city");
     } finally {
       setIsLoading(false);
     }
@@ -65,7 +79,8 @@ function CitiesProvider({ children }) {
         isLoading,
         getCity,
         currentCity,
-        postCity
+        postCity,
+        deleteCity
       }}
     >
       {children}

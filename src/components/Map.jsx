@@ -39,7 +39,6 @@ function Map() {
     <div className={styles.mapContainer}>
         {!geolocationPostion && <Button type='position' onClick={getPosition}>
             {isGeolocationLoading ? 'Loading...' : "Use your position"}
-            {console.log(geolocationPostion)}
         </Button>}
       <MapContainer
         center={mapPosition}

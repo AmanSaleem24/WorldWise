@@ -20,8 +20,11 @@ function City() {
   const {getCity, currentCity} = useCities()
 
   useEffect(function(){
-    getCity(id)
-  }, [id, getCity])
+    async function get(){
+      await getCity(id)
+    }
+    get()
+  }, [id])
 
 const {cityName, emoji, date, notes} = currentCity
     return (

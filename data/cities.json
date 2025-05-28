@@ -1,232 +1,64 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "New Delhi",
+      "cityName": "Delhi",
       "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T15:59:59.138Z",
-      "notes": "The capital city, rich with history and culture.",
+      "countryCode": "IN",
+      "date": "2025-05-28T14:17:22.191Z",
+      "notes": "polluted",
       "position": {
-        "lat": 28.6139,
-        "lng": 77.209
+        "lat": "28.603814407841327",
+        "lng": "77.17790261293898"
       },
-      "id": 10000001
+      "id": 1
     },
     {
-      "cityName": "Lucknow",
+      "cityName": "Panipat",
       "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T15:59:59.138Z",
-      "notes": "City of Nawabs and delicious kebabs.",
+      "countryCode": "IN",
+      "date": "2025-05-28T14:24:10.085Z",
+      "notes": "dwe",
       "position": {
-        "lat": 26.8467,
-        "lng": 80.9462
+        "lat": "29.372601506681402",
+        "lng": "77.01323151049759"
       },
-      "id": 10000002
+      "id": 2
     },
     {
-      "cityName": "Mussoorie",
+      "cityName": "Mathura",
       "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T15:59:59.138Z",
-      "notes": "A peaceful hill station with stunning views.",
+      "countryCode": "IN",
+      "date": "2025-05-28T14:39:42.005Z",
+      "notes": "pious",
       "position": {
-        "lat": 30.4599,
-        "lng": 78.066
+        "lat": "27.430289738862594",
+        "lng": "77.4945081331573"
       },
-      "id": 10000003
-    },
-    {
-      "cityName": "Kannauj",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T15:59:59.138Z",
-      "notes": "Known as the perfume capital of India.",
-      "position": {
-        "lat": 27.0558,
-        "lng": 79.9226
-      },
-      "id": 10000004
-    },
-    {
-      "cityName": "Meerut",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T21:57:46.786Z",
-      "notes": "",
-      "position": {
-        "lat": "28.9600886880068",
-        "lng": "77.67227049409576"
-      },
-      "id": 98443198
+      "id": 3
     },
     {
       "cityName": "Rewari",
       "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:02:03.844Z",
+      "countryCode": "IN",
+      "date": "2025-05-28T14:43:20.922Z",
       "notes": "",
       "position": {
-        "lat": "28.193085209185245",
-        "lng": "76.62852429697213"
+        "lat": "28.217289755957054",
+        "lng": "76.67332508919556"
       },
-      "id": 98443199
+      "id": 4
     },
     {
-      "cityName": "Kota",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:02:41.346Z",
-      "notes": "jee",
+      "cityName": "Oslo",
+      "country": "Norway",
+      "countryCode": "NO",
+      "date": "2025-05-28T17:49:04.160Z",
+      "notes": " good\n",
       "position": {
-        "lat": "25.140311914680755",
-        "lng": "75.84314816809258"
+        "lat": "59.93300042374631",
+        "lng": "10.756064984462094"
       },
-      "id": 98443200
-    },
-    {
-      "cityName": "Jaipur",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:06:36.728Z",
-      "notes": "pink city",
-      "position": {
-        "lat": "26.926967642880527",
-        "lng": "75.78809270803391"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Jaipur",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:06:36.728Z",
-      "notes": "pink city",
-      "position": {
-        "lat": "26.926967642880527",
-        "lng": "75.78809270803391"
-      },
-      "id": 98443202
-    },
-    {
-      "cityName": "Jaipur",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:06:36.728Z",
-      "notes": "pink city",
-      "position": {
-        "lat": "26.926967642880527",
-        "lng": "75.78809270803391"
-      },
-      "id": 98443203
-    },
-    {
-      "cityName": "Jaipur",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:06:36.728Z",
-      "notes": "pink city",
-      "position": {
-        "lat": "26.926967642880527",
-        "lng": "75.78809270803391"
-      },
-      "id": 98443204
-    },
-    {
-      "cityName": "Jaipur",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:06:36.728Z",
-      "notes": "pink city",
-      "position": {
-        "lat": "26.926967642880527",
-        "lng": "75.78809270803391"
-      },
-      "id": 98443205
-    },
-    {
-      "cityName": "Jaipur",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:06:36.728Z",
-      "notes": "pink city",
-      "position": {
-        "lat": "26.926967642880527",
-        "lng": "75.78809270803391"
-      },
-      "id": 98443206
-    },
-    {
-      "cityName": "Chhibramau",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:12:12.192Z",
-      "notes": "hometown",
-      "position": {
-        "lat": "27.03129982997935",
-        "lng": "79.4887999633076"
-      },
-      "id": 98443207
-    },
-    {
-      "cityName": "Karhal",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:13:34.720Z",
-      "notes": "",
-      "position": {
-        "lat": "27.002855190521245",
-        "lng": "78.94035839715507"
-      },
-      "id": 98443208
-    },
-    {
-      "cityName": "Khurja",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-05-24T22:15:40.366Z",
-      "notes": "",
-      "position": {
-        "lat": "28.20760859532738",
-        "lng": "77.88645886728463"
-      },
-      "id": 98443209
+      "id": 5
     }
   ]
 }
